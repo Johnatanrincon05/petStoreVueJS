@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class="container-fluid pt-navbar mx-auto">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="ml-0">PetStore</h2>
+        <h2 class="ml-0">Polimarket</h2>
     </div>
     </div>
   </div>
