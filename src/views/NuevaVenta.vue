@@ -127,7 +127,7 @@ export default {
           alert('✅ Venta registrada con éxito')
           productosSeleccionados.value = [{ productoId: '', cantidad: 1 }]
           total.value = 0
-          window.location.href = '/ventas/historial'
+          window.location.href = '/'
         })
         .catch(err => {
           alert('❌ Error al registrar la venta: ' + (err.response?.data?.message || err.message))

@@ -5,7 +5,7 @@ import HistorialVentas from '@/views/HistorialVentas.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/', redirect: '/ventas/nueva' },
+    { path: '/', redirect: '/ventas/historial' },
     { path: '/ventas/nueva', component: NuevaVenta },
       { path: '/ventas/historial', component: HistorialVentas }
   ],
